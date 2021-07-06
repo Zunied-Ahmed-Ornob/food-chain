@@ -1,66 +1,191 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.navigation {
+    display: flex;
+    background-image: linear-gradient(rgb(236, 168, 40), rgb(255, 17, 0));
+    border-radius: 54px;
+    height: 50px;
+    box-shadow: 1px 1px 1px;
+    padding-top: 3px;
+    padding-bottom: -1px;
+     margin-top: 8px;
+    
+
 }
 
 
-span{
+nav a {
+
+    margin-left: 50px;
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(0, 195, 255), rgba(57, 4, 252, 0.562));
+    border-radius: 10px;
+    padding: 7px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+
+
+
+}
+
+nav {
+    margin-top: 10px;
+}
+
+span {
     color: orange;
 }
-h1{
+
+h1 {
     font-size: 55px;
 
 }
 
 
-.flot_content{
-    display:flex;
+.flot_content {
+    display: flex;
 }
-.first_text_section{
-    padding-top: 120px; 
+
+.first_text_section {
+    padding-top: 120px;
     padding-left: 60px;
     margin-left: 10px;
-   
-  
+
+
 }
-.link{
+
+.link {
     color: white;
     text-decoration: none;
-    background-image: linear-gradient(orange,tomato);        
+    background-image: linear-gradient(rgb(0, 225, 255), rgb(83, 71, 255));
     padding: 20px 40px;
     border-radius: 50px;
-    margin-top:30px;
+    margin-top: 30px;
 }
-    
-.half_width_section1{
+
+.half_width_section1 {
     width: 50%;
 }
-.half_width_section1 img{  
-   width: 100%;  
+
+.half_width_section1 img {
+    width: 100%;
 }
 
-.half_width_section2{
+.half_width_section2 {
     width: 50%;
-   
-}
-.half_width_section2 img{
-    
-   width: 40%;
-   height: 521px;
-   margin-top: 80px;
-   margin-left: 200px;
-   
+
 }
 
+.half_width_section2 img {
 
-.about_section{
+    width: 40%;
+    height: 521px;
+    margin-top: 80px;
+    margin-left: 200px;
+
+}
+
+.about_section {
     background-image: url(images/shapes/7.png);
     width: 100%;
     height: 600px;
     margin-top: 50px;
 }
-.about_pera{
-    margin-top: 120px; 
-    margin-right:280px ;
+
+.about_pera {
+    margin-top: 120px;
+    margin-right: 280px;
     margin-left: 50px;
     text-align: justify;
+}
+
+.third_section_text {
+    text-align: center;
+
+
+}
+
+.top_margin {
+    margin-top: 100px;
+}
+
+.box {
+    width: 27.33%;
+    margin-left: 3.5%;
+    margin-right: 3.3%;
+    margin-top: 1%;
+    box-shadow: 5px 5px 20px gray;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    border-radius: 20px;
+
+}
+
+.box img {
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+.social_midea {
+    box-shadow: 5px 5px 20px gray;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 15px;
+
+}
+
+.social_midea h1 {
+    margin-bottom: -1px;
+}
+
+.yt {
+    width: 23.33%;
+    height: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+
+}
+
+.insta {
+    width: 23.33%;
+    height: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.dribbble {
+    width: 23.33%;
+    height: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+footer {
+    margin-top: 100px;
+    padding-top: 30px;
+
+    background-color: black;
+    text-align: center;
+}
+
+footer>h2 {
+    color: grey;
+
+}
+
+footer p {
+    color: white;
+    margin-top: 20px;
+
 }
